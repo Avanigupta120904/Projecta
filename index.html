@@ -10,30 +10,31 @@
 <body>
     <div class="header">
          <nav>
-            <div class="logo"><img src="logo.png" alt="" width="150" height="100"></div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home1</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+            <div class="logo"><img src="logo.png" alt="" width="170" height="120"></div>
+<div class="menu">
+    <ul>
+        <li><a href="#"><i class="fa fa-home"></i><br>Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i><br>About</a></li>
+        <li><a href="#services"><i class="fa fa-cog"></i><br>Services</a></li>
+        <li><a href="#contact"><i class="fa fa-phone"></i><br>Contact</a></li>
+    </ul>
+</div>
          </nav>
          <div class="banner">
             <div class="b-text">
-                <h1>I'm Lilith Bodenhausen<span>Research Assistant</span></h1>
-                <p>Detail-oriented and motivated Research Assistant with hands-on experience in supporting academic and technical research projects. Skilled in data collection, analysis, literature reviews, and documentation. Adept at using tools such as Excel, SPSS, Python, or R to interpret complex datasets and generate actionable insights.</p>
-                <button>Learn More</button>
+                <h1>I'm Avani Gupta<span>Web Developer Intern</span></h1>
+                <p>As a Web Developer Intern, I gained hands-on experience in designing, developing, and maintaining responsive web applications. I collaborated with cross-functional teams to implement front-end features using HTML, CSS, and JavaScript. </p>
+                <button><div class="download">
+            <a href="AvaniGupta.pdf" download class="download-btn">Download Resume</a>
+        </div></button>
             </div>
          </div>
     </div>
-         
     </div>
     <div id="about" class="about section-padding">
         <div class="about-section">
             <div class="about-img">
-                <img src="img2.png" alt="">
+                <img src="img2.png" alt="" width="500">
             </div>
             <div class="about-text">
                 <h2><span>Data-Analytics</span> Developer</h2>
@@ -49,33 +50,45 @@
         </div>
         <div class="skill-content">
             <div class="skill-1">
+                <h2>Excel</h2>
+                <div class="d-box">
+                    <div class="d" style="width: 50%"></div>
+                </div>
+                <h2>C</h2>
+                <div class="d-box">
+                    <div class="d" style="width: 100%"></div>
+                </div>
+                <h2>C++</h2>
+                <div class="d-box">
+                    <div class="d" style="width: 100%"></div>
+                </div>
+                <h2>OOPS</h2>
+                <div class="d-box">
+                    <div class="d" style="width: 100%"></div>
+                </div>
+                <h2>SQL</h2>
+                <div class="d-box">
+                    <div class="d" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-2">
                 <h2>Python</h2>
                 <div class="d-box">
                     <div class="d" style="width: 90%"></div>
                 </div>
-                <h2>Excel</h2>
+                <h2>HTML</h2>
                 <div class="d-box">
-                    <div class="d" style="width: 80%"></div>
+                    <div class="d" style="width: 95%"></div>
                 </div>
-                <h2>SPSS</h2>
+                <h2>CSS</h2>
                 <div class="d-box">
-                    <div class="d" style="width: 50%"></div>
+                    <div class="d" style="width: 90%"></div>
                 </div>
-                <h2>R</h2>
+                <h2>JavaScript</h2>
                 <div class="d-box">
-                    <div class="d" style="width: 45%"></div>
+                    <div class="d" style="width: 95%"></div>
                 </div>
-            </div>
-            <div class="skill-2">
-                <h2>Wordpress</h2>
-                <div class="d-box">
-                    <div class="d" style="width: 85%"></div>
-                </div>
-                <h2>Power Bi</h2>
-                <div class="d-box">
-                    <div class="d" style="width: 70%"></div>
-                </div>
-                <h2>Html</h2>
+                <h2>React</h2>
                 <div class="d-box">
                     <div class="d" style="width: 65%"></div>
                 </div>
@@ -97,16 +110,16 @@
                 <div class="icon-area">
                     <i class="fa fa-glass"></i>
                 </div>
-                <h2>Student Assistant</h2>
-                <p>Assisted faculty and administrative staff with academic and operational tasks, including data entry, organizing course materials, and managing schedules.</p>
+                <h2>Web Developer Intern</h2>
+                <p>During my internship, I worked on debugging, version control (Git/GitHub), and basic API handling to support dynamic content. I also contributed to UI/UX enhancements based on user feedback and played a role in testing and deploying web solutions. This experience strengthened my practical understanding of the software development lifecycle and equipped me with real-world problem-solving skills in web technologies.</p>
                 <a href="#">Learn More</a>
             </div>
             <div class="single-service">
                 <div class="icon-area">
                     <i class="fa fa-diamond"></i>
                 </div>
-                <h2>Research Assistant</h2>
-                <p>Collaborated with faculty on academic research projects, assisting with literature review, data collection, and analysis.</p>
+                <h2>Freelancer Project</h2>
+                <p>As a freelance web developer, I independently delivered end-to-end web solutions tailored to client needs. My responsibilities included gathering requirements, designing UI mockups, and building responsive websites using HTML, CSS, JavaScript, and modern frameworks like React or Bootstrap.</p>
                 <a href="#">Learn More</a>
             </div>
         </div>
@@ -114,32 +127,34 @@
 
     <div id="contact" class="contact section-padding">
          <div class="section-header">
-            <h2>Contact <span>Me</span></h2>
-            <p>Connect with me:</p>
+            <h2>Contact <span>Me!</span></h2>
         </div>
         <div class="contact-content">
             <div class="single-contact">
+                <form id="contactForm"></form>
                 <label>Your Name</label>
-                <input type="text" placeholder="Enter your Name ...">
+                <input type="text" name="user_name" placeholder="Enter your Name ..." required>
                 <label>Your Email</label>
-                <input type="email" placeholder="Enter your Email ...">
-                <label>Your Queries</label>
-                <input type="text" placeholder="Enter your Query ...">
-                <a href="#">Send Now</a>
+                <input type="email" name="user_email" placeholder="Enter your Email ..." required>
+                <label>Your Message</label>
+                <input name="message" placeholder="Enter your Message ..." required>
+                <button type="submit">Send Now</button>
+                </form>
             </div>
         </div>
     </div>
     <footer class="section-padding">
-        <p>All Right Reserved by @Lilith</p>
+        <p>Copyrights <i class="fa fa-copyright"></i> by Avani | All Rights Reserved </p>
         <div class="socials">
-            <i class="fa fa-linkedin"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-twitter"></i>
-        </div>
+  <a href="https://github.com/Avanigupta120904/Projecta.git"><i class="fa fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/avani-gupta-2a25122bb/"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/naruto_ro5"><i class="fa fa-instagram"></i></a>
+</div>  
     </footer> 
     <button onclick="scrollToTop()" id="scrollToTopbtn">&#9650;</button>
 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="main.js"> </script>
 </body>
 </html> 
